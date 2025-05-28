@@ -13,7 +13,7 @@ if text.lower() != "q":
     tts.save(os.path.join(output_dir, "urdu_speech.wav"))
     print("Speech saved successfully!")
 else:
-    print("Exiting...")
+    print("Exiting...")  #TODO: This will run when exit
     exit()
 
     
