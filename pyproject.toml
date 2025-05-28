@@ -1,0 +1,20 @@
+[project]
+name = "agent-speaker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "easyocr>=1.7.2",
+    "gtts>=2.5.4",
+    "opencv-contrib-python>=4.11.0.86",
+    "opencv-python>=4.11.0.86",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pillow>=11.2.1",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "pytesseract>=0.3.13",
+    "pywin32>=310",
+    "tesseract>=0.1.3",
+]
