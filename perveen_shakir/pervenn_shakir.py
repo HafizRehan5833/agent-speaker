@@ -2,14 +2,14 @@ import pandas as pd
 from gtts import gTTS
 import os
 
-file_path = "perveen_shakir\pervenn_shakir.xlsx"
+file_path = r"perveen_shakir\pervenn_shakir.xlsx"
 df = pd.read_excel(file_path)
 
 df.columns = df.columns.str.strip()
 required_columns = ["GUID", "left_verse", "right_verse"]
 df = df[required_columns]
 
-output_dir = "perveen_shakir\\perveenn_shakir_audio_files"
+output_dir = "perveen_shakir\\perveenn_shakir_book_1"
 os.makedirs(output_dir, exist_ok=True)
 
 # Generate merged audio files
